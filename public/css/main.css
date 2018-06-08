@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+body{
+    height: 100%;
+    position: relative;
+}  
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -60px;
+    padding-bottom: 80px;
+}
+
+.task_name{
+    font-weight: bold;
+}
+.page-footer{
+    height: 60px;
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 768px)  {
+
+    pre{
+        display: none;
+    }
+    
+    }
